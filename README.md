@@ -1,7 +1,17 @@
 # Crash-Course
-Electronic Computing: Crash Course Computer Science #2      Fundamentals of programming
-One of the largest electro-mechanical computers built was the Harvard Mark I, completed in 1944 by IBM for the Allies during World War 2. It contained 765,000 components, three million connections, and five hundred miles of wire.
-To keep its internal mechanics synchronized, it used a 50-foot shaft running right through the machine driven by a five horsepower motor.
-Earliest uses for this technology was running simulations for the Manhattan Project.
-Used relays: electrically-controlled mechanical switches
-In a relay, there is a control wire that determines whether a circuit is opened or closed. The control wire connects to a coil of wire inside the relay. When current flows through the coil, an electromagneticfield is created, which in turn, attracts a metal arm inside the relay, snapping it shut and completing the circuit.
+Arrays, also called lists or
+Vectors in some languages.
+These are a series of values stored in memory.
+To be able to find a particular value in this array, we have to specify an index.
+Almost all programing languages start arrays at index 0, and use a square bracket syntax
+to denote array access.
+Arrays are extremely versatile data structures, used all the time, and so there are many functions
+that can handle them to do useful things.
+For example, pretty much every programming language comes with a built-in sort function,
+where you just pass in your array, and it comes back sorted.
+many programming languages have a string concatenation function, or “strcat”,
+which takes in two strings, and copies the second one to the end of the first.
+We can use arrays for making one dimensional lists, but sometimes you want to manipulate
+data that is two dimensional, like a grid of numbers in a spreadsheet, or the pixels
+on your computer screen.
+For this, we need a Matrix.
